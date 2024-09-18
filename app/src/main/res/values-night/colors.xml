@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+    <color name="primaryText">#FCFCFC</color>
     <color name="ic_launcher_background_tint">#FCFCFC</color>
     <color name="ic_launcher_foreground_tint">#000000</color>
 </resources>

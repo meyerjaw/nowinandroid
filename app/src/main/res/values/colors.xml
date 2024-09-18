@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright 2021 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +16,12 @@
 <resources>
     <!-- Status bar -->
     <color name="black30">#4D000000</color>
+    <color name="primaryText">#000000</color>
 
     <color name="ic_launcher_background_tint">#000000</color>
     <color name="ic_launcher_foreground_tint">#FCFCFC</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
 </resources>

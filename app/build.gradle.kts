@@ -26,6 +26,7 @@ plugins {
     alias(libs.plugins.baselineprofile)
     alias(libs.plugins.roborazzi)
     alias(libs.plugins.kotlin.serialization)
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -70,6 +71,9 @@ android {
         }
     }
     namespace = "com.google.samples.apps.nowinandroid"
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {

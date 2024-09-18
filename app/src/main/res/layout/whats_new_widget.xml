@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Nowinandroid.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Nia.Splash.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_toStartOf="@id/appwidget_Bookmark"
+        android:contentDescription="@string/appwidget_title"
+        android:textColor="@color/primaryText"
+        android:text="@string/appwidget_title"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/appwidget_SubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@id/appwidget_Title"
+        android:contentDescription="@string/appwidget_subtitle"
+        android:textColor="@color/primaryText"
+        android:text="@string/appwidget_subtitle"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/appwidget_Bookmark"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/baseline_bookmark_border_24"
+        />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_below="@id/appwidget_SubTitle"
+        android:contentDescription="@string/appwidget_text"
+        android:textColor="@color/primaryText"
+        android:text="@string/appwidget_text"
+        android:textSize="18sp"/>
+</RelativeLayout>
